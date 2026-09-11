@@ -24,6 +24,10 @@ Si conseguís acceso a un feed GTFS estático o GTFS-RT oficial (por ejemplo cua
 
 Las listas de estaciones son las **paradas principales** de cada ramal, no exhaustivas — pensadas para que la cartelera sea legible. Si querés el listado completo de paradas, se puede ampliar desde `stops.txt` del GTFS oficial.
 
+## Ícono en pantalla de inicio
+
+El proyecto incluye `manifest.json`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png` e `icon-512.png` para que, al usar "Agregar a pantalla de inicio" desde Chrome o Safari, se use el ícono del tren en vez del ícono genérico con la letra del dominio. Subí estos archivos junto con `index.html` al mismo repositorio (mismo nivel, sin subcarpetas) para que funcione.
+
 ## Uso
 
 Abrí `index.html` en cualquier navegador, o publicalo con GitHub Pages (Settings → Pages → Deploy from branch → `main` / `root`).
